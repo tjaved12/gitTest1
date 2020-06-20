@@ -1,36 +1,69 @@
 <!DOCTYPE html>
    <html lang="en">
      <head>
-
-      <link rel="stylesheet" href="fanpagestyle.css"></link>
-      
+<!-- Linking CSS -->
+      <link rel="stylesheet" 
+      href="newtest.css"> </link>
+<!-- Linking jQuery -->
+	  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!-- Linking Google Fonts -->
+	  <link href='https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab|Yellowtail' rel='stylesheet' type='text/css'>
+     
+	
       
        <meta charset="UTF-8" />
    
        <title>Student Bio</title>
      </head>
-   
+
      <body>
        <h1>Tahmeena</h1>
-       <img frameborder="0" width="25%" height="25%"
-       src="https://www.logolynx.com/images/logolynx/f6/f6678415445c1378e0b16dea3a531331.jpeg" style="border:5px solid blue"> 
-    
-       <p>
-       Thats Me!!!
-       </p>
-   
+       <img frameborder="0" width="25%" height="25%">
+ 
+
+	<div class="row text-center">
+			
+		<div class="col-sm-6">
+			<button class="btn" id="boxGrow">That's Me!!!</button>
+            <button class="btn" id="boxShrink">...</button>
+            <button class="btn" id="reset">Reset</button>
+			<br>
+			<br>
+			<div class="well text-center">
+			<img id="box" src="https://www.logolynx.com/images/logolynx/f6/f6678415445c1378e0b16dea3a531331.jpeg" style="border:5px solid blue"; style = "display: ock"> 
+			</div>
+        </div>
+        </div>
+
        <h2>Bio</h2>
    
        <ul>
          <p> I have a background in Tech MGT and working as QA Engineer for last 10 + years
 
          </p>
-         <h2> Contact Info</h2>
-         <li><strong> Email: tahmeenaowais@yahoo.com</strong></li>
-         <li> <strong>Git Hub: https://github.com/tjaved12/gitTest1.git</strong></li>
-         <li><strong> Portfolio: coming soon</strong></li>
-       
+       </ul>
+
+    <br><br>
     
-       
+	<div class="row">
+       <div class="col-sm-8 text-center">
+           
+        <button class="btn btn-primary form-control" id="factButton"> Skills!!!</button>
+        <div class="well text-center">
+            <div>
+               <ul> <p id="factText">Click the button for Skills!</p>
+               </ul>
+            </div>
+        </div>
+    </div>
+         <h2> Contact Info</h2>
+        <ul>
+         <li>Email: tahmeenaowais@yahoo.com</li>
+         <li>Git Hub: https://github.com/tjaved12/gitTest1.git</li>
+         <li>Portfolio: coming soon</li>
+        </ul>
+<!-- Linking our JavaScript file -->
+    <script type="text/javascript" src="newtest.js"></script>
+
      </body>
    </html>
