@@ -7,7 +7,7 @@ $("#factButton").on("click", function() {
 });
 
 // This array holds all of my skills facts!
-var skillsArray = ["10+ years of QA experience", "Excellent communication skills", "Team player", "Proficient in Automation Engineering"]
+var skillsArray = ["10+ years of QA experience", "Excellent communication skills", "Team player", "Proficient in Automation Engineering", "Proficient in Functional, Integration, E2E, System, Accessibility, UAT and Performance testing"]
 
  // When the boxGrow button is clicked...
 $("#boxGrow").on("click", function() {
@@ -24,7 +24,7 @@ $("#boxShrink").on("click", function() {
      document.getElementById("box").style.height = "180px";
      document.getElementById("box").style.width = "180px";
 
-     
+
    // $("#reset").on("click", function() {
     //$("#box").style.height ="180px";
    // $("#box").style.width = "180px";
