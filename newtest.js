@@ -7,7 +7,8 @@ $("#factButton").on("click", function() {
 });
 
 // This array holds all of my skills facts!
-var skillsArray = ["10+ years of QA experience", "Excellent communication skills", "Team player", "Proficient in Automation Engineering", "Proficient in Functional, Integration, E2E, System, Accessibility, UAT and Performance testing"]
+var skillsArray = ["10+ years of QA experience", "Excellent communication skills", "Team player", "Proficient in Automation Engineering",
+ "Proficient in Functional, Integration, E2E, System, Accessibility, UAT and Performance testing"]
 
  // When the boxGrow button is clicked...
 $("#boxGrow").on("click", function() {
