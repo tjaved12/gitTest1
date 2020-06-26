@@ -1,0 +1,92 @@
+/**
+ * box Layout Activity
+ **/
+
+ * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+  }
+  ul {
+    list-style-type: none;
+    float:left;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+  }
+  li{
+    float: left;
+  }
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  #fixed {
+    position: fixed;
+    width: 92%;
+    overflow: auto;
+    font-weight: bolder;
+     padding: 20px;
+   margin-left:  20px;
+   margin-right: auto;
+    text-align: center;
+    background: rgb(247, 169, 169);
+  }
+  #absolute {
+    position:fixed;
+    height: 120px;
+    overflow: auto;
+    font-weight: normal;
+    padding: 20px;
+    text-align: left;
+    background: rgb(247, 169, 169);
+  }
+  
+
+  .wrapper {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    line-height: 45px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+section{
+ padding: 20px;
+ margin-bottom: 20px;
+ background: #f7e8cc;
+}
+ 
+
+
+#relative {
+    position: relative;
+    overflow: auto;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #eee;
+  }
+  
+ 

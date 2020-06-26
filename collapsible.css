@@ -1,0 +1,102 @@
+.collapsible1{
+
+	background-color: green;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 25%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+.collapsible2{
+
+	background-color: green;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 25%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+.collapsible3{
+
+	background-color: green;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 25%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+
+.active,
+.collapsible1:hover {
+	background-color: greenyellow
+}
+
+.collapsible1:after {
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+.active,
+.collapsible2:hover {
+	background-color: greenyellow;
+}
+
+.collapsible2:after {
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+.active,
+.collapsible3:hover {
+	background-color:greenyellow;
+}
+
+.collapsible3:after {
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+.active,
+.collapsible4:hover {
+	background-color:greenyellow;
+}
+
+.collapsible3:after {
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+.active:after {
+	content: "\2212";
+}
+hi,h2{
+    text-align: center;
+}
+
+
+.content {
+    padding: 0 18px;
+    float: left;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: #f1f1f1;
+}
